@@ -8,4 +8,4 @@ In questa repo si troverà un progetto su una casa domotica, con interfaccia e l
 
 ### Collaboratori
  - [@xBabriele](https://github.com/xBabriele)
- - [@PixelRei](https://github.com/xBabriele)
+ - [@PixelRei](https://github.com/PixelRei)
