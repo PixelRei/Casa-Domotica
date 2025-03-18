@@ -9,6 +9,6 @@ In questa repo si troverà un progetto su una casa domotica, con interfaccia e l
 ### Collaboratori
 
 <ul>
-  <li> @xBabriele </li>
-  <li> @PixelRei </li>
+  <li> [@xBabriele](https://github.com/xBabriele)</li>
+  <li> [@PixelRei](https://github.com/xBabriele)</li>
 </ul>
