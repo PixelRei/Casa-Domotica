@@ -1,5 +1,5 @@
 # Casa-Domotica
-<img src="https://www.eliteav.services/wp-content/uploads/2024/09/Home-Automation-Installation-What-You-Need-to-Know-1024x696.webp" alt="immagine casa domotica" width="200px">
+<img src="https://www.eliteav.services/wp-content/uploads/2024/09/Home-Automation-Installation-What-You-Need-to-Know-1024x696.webp" alt="immagine casa domotica" width="500px" align="center">
 ### Cosa abbiamo utilizzato
 Per questo progetto abbiamo utilizzato Cisco Packet Tracer per la rete della casa, HTML, CSS, JavaScript e ThreeJS per la parte dell'interfaccia grafica per la casa domotica.
 
