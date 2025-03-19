@@ -1,5 +1,7 @@
 # Casa Domotica
 
+<img src="https://www.olivermateu.com/storage/app/uploads/public/5b1/143/c73/5b1143c734109283105495.jpg" heigth="100" width="200">
+
 ### Cosa abbiamo utilizzato
 Per questo progetto abbiamo utilizzato Cisco Packet Tracer per la rete della casa, HTML, CSS, JavaScript e ThreeJS per la parte dell'interfaccia grafica per la casa domotica.
 
