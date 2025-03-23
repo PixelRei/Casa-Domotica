@@ -6,7 +6,7 @@ html {
 
 .morning {
     background-image: url(img/morning.jpg);
-    --bg-body: #85e1ff;
+    /*--bg-body: #85e1ff;*/
 
     --bg-titolo: #333;
     --color-titolo: #fff;
@@ -35,9 +35,9 @@ html {
 }
 .evening {
     background-image: url(img/evening.jpg);
-    --bg-body: #211C84;
+    /*--bg-body: #211C84;*/
 
-    --bg-titolo: #111;
+    --bg-titolo: #000;
     --color-titolo: #FFF;
     --color-hr-titolo: #BBB;
 
@@ -104,6 +104,8 @@ main {
 }
 img#casa-img {
     transform: scale(1.4);
+    user-select: none;
+    -webkit-user-drag: none;
 }
 .div-param {
     display: grid;
