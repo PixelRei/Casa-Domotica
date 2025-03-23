@@ -1,0 +1,130 @@
+html {
+    cursor: url(''), auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.morning {
+    background-image: url(img/morning.jpg);
+    --bg-body: #85e1ff;
+
+    --bg-titolo: #333;
+    --color-titolo: #fff;
+    --color-hr-titolo: #fff;
+
+    --bg-parameters: var(--bg-titolo);
+    --color-parameters: #fff;
+    --color-hr-parameters: ;
+
+    --bg-select: #F5ECE0;
+    --color-select: #222;
+}
+.sunset {
+    background-image: url(img/sunset.jpg);
+
+    --bg-titolo: #333;
+    --color-titolo: #fff;
+    --color-hr-titolo: #fff;
+
+    --bg-parameters: var(--bg-titolo);
+    --color-parameters: #fff;
+    --color-hr-parameters: ;
+
+    --bg-select: #F5ECE0;
+    --color-select: #222;
+}
+.evening {
+    background-image: url(img/evening.jpg);
+    --bg-body: #211C84;
+
+    --bg-titolo: #111;
+    --color-titolo: #FFF;
+    --color-hr-titolo: #BBB;
+
+    --bg-parameters: var(--bg-titolo);
+    --color-parameters: #fff;
+    --color-hr-parameters: ;
+
+    --bg-select: #F5ECE0;
+    --color-select: #222;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-body);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+* {
+    margin: 0;
+}
+*::selection {
+    background-color: var(--bg-select);
+    color: var(--color-select);
+}
+
+
+.titolo {
+    background-color: var(--bg-titolo);
+    color: var(--color-titolo);
+    height: 17.1dvh;
+    min-height: 80px;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+hr {
+    width: 60px;
+    border: 2px solid var(--color-hr-titolo);
+    border-radius: 20px;
+    margin: 15px auto;
+}
+
+
+main {
+    height: 66.4dvh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    padding: 75px 50px;
+}
+.casa {
+    width: 60%;
+    min-width: 720px;
+    height: 600px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+img#casa-img {
+    transform: scale(1.4);
+}
+.div-param {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 40%;
+    height: 600px;
+    color: var(--color-parameters);
+}
+.parameters {
+    background-color: var(--bg-parameters);
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 450px;
+    height: 600px;
+}
+.parameters h2 {
+    text-align: center;
+}
+.parameters li {
+    list-style-type: none;
+    margin: 25px 0;
+}
