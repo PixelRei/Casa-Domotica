@@ -13,8 +13,8 @@ dalle 20:00 alle 05:59 per la notte.
 
 ## Cosa abbiamo utilizzato
 Per questo progetto abbiamo utilizzato Cisco Packet Tracer (per simulare la rete della casa), HTML, CSS e JavaScript (per lo sviluppo dell'interfaccia grafica (pannello di controllo)).
-Per visualizzare la rete della casa vi basterà entrare dentro la cartella ... , scaricare il file della rete (estensione .pka) e aprirlo con Cisco Packet Tracer oppure aprendo l'immagine della rete della stessa cartella.
-Invece per visualizzare il sito vi basterà andare nel link [Casa Domotica](https://xBabriele.github.io/Casa). Se invece volete vedere il codice del sito andate nella cartella ....
+Per visualizzare la rete della casa vi basterà entrare dentro la cartella "rete casa", scaricare il file della rete (estensione .pka) e aprirlo con Cisco Packet Tracer oppure aprendo l'immagine della rete della stessa cartella.
+Invece per visualizzare il sito vi basterà andare nel link [Casa Domotica](https://PixelRei.github.io/Casa-Domotica).
 
 
 ## Conclusione
