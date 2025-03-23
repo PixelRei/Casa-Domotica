@@ -1,6 +1,6 @@
 # Casa Domotica
 
----
+
 
 ## Di cosa si tratta?
 In questo progetto abbiamo realizzato un sito che simula il pannello di controllo di una casa domotica. All'interno di questo sito troverete l'immagine della casa dove toccando le varie stanze al suo interno potrete esplorarla e a destra il pannello di controllo in riferimento alla stanza in cui si è dentro.
