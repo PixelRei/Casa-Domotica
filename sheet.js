@@ -35,5 +35,19 @@ let evento = addEventListener("load", function() {
         hour12: false       // false per avere l'ora in formato 24
     }).format(data);
 
-    date.innerHTML += ora;
+    date.innerHTML = ora;
 });
+
+// Aggiorna data ogni secondo
+setInterval(function () {
+    data = new Date();
+
+    ora = new Intl.DateTimeFormat('it-IT', {      // l'ora nel div parameters
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false       // false per avere l'ora in formato 24
+    }).format(data);
+
+    date.innerHTML = ora;
+}, 1000);

@@ -1,24 +1,3 @@
-@media screen and (max-width: 768px) {
-    main {
-        padding: 50px 0 !important;
-        justify-content: center;
-    }
-}
-@media screen and (max-width: 992px) {  /* Phones */
-    
-}
-@media screen and (max-width: 1200px) { /* Tablets */
-    
-}
-@media screen and (max-width: 1400px) {
-    
-}
-@media screen and (min-width: 1401px) {
-    
-}
-
-
-
 html {
     cursor: url('img/cursor.cur'), auto;
     scrollbar-width: none;
@@ -70,9 +49,9 @@ html {
     background-image: url(img/evening.jpg);
     /*--bg-body: #211C84;*/
 
-    --bg-titolo: #000;
+    --bg-titolo: #00042e;
     --color-titolo: #FFF;
-    --color-hr-titolo: #BBB;
+    --color-hr-titolo: #FFF;
 
     --bg-parameters: var(--bg-titolo);
     --color-parameters: #fff;
@@ -112,13 +91,13 @@ hr {
 
 /* DIV CASA E CARTA PER PARAMETRI */
 main {
-    height: fit-content;
-    min-height: 83vh;
+    height: 83vh;
     display: grid;
     grid-template-columns: 2fr 1.5fr;       /* AGGIUNGERE MEDIA PER METTERE SOLO UNA COLONNA DOPO UN CERTO PUNTO*/
     justify-items: center;
     align-items: center;
     gap: 35px;
+    padding: 50px 0;
     box-sizing: border-box;
 }
 
@@ -138,8 +117,11 @@ area {
     width: 100%;
     max-width: 520px;
     min-width: 300px;
+    height: 100%;
+    min-height: 400px;
     border-radius: 20px;
     padding: 15px;
+    margin-right: 20px;
     background-color: var(--bg-parameters);
     color: var(--color-parameters);
     box-sizing: border-box;
@@ -147,7 +129,45 @@ area {
 .parameters h2 {
     text-align: center;
 }
+.parameters ul {
+    display: grid;
+    max-height: 20px;
+}
 .parameters li {
     list-style-type: none;
-    margin: 10% 0;
+    margin: 4vh 0;
+}
+
+@media screen and (max-width: 580px) {
+    img#casa-img {
+        transform: scale(0.8);
+    }
+}
+@media screen and (max-width: 768px) {
+    img#casa-img {
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width: 1050px) { /* Tablets */
+    main {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    .parameters {
+        margin: 0;
+    }
+}
+@media screen and (max-height: 800px) {
+    img#casa-img {
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width: 1200px) { /* Tablets */
+    
+}
+@media screen and (max-width: 1400px) {
+    
+}
+@media screen and (min-width: 1401px) {
+    
 }
