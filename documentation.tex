@@ -1,0 +1,132 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage[colorlinks=true,
+            linkcolor=black,
+            citecolor=black,
+            urlcolor=blue]{hyperref}  % Configurazione hyperref per link ipertestuali
+
+% Impostazioni pagina
+\geometry{a4paper, margin=2.5cm}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+% Pagina del titolo
+\title{Casa Domotica}
+\author{Team di Sviluppo}
+\date{}
+
+\begin{document}
+
+% Pagina di Copertina
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\huge\bfseries Casa Domotica\par}
+    \vspace{1.5cm}
+    
+    {\Large Azienda: DomotiX\par}
+    \vspace{2cm}
+    
+    {\large\itshape Team di Sviluppo:\par}
+    \vspace{0.5cm}
+    
+    % Elenco dei partecipanti
+    \begin{itemize}
+        \item Cociug Raul Andrei - Sviluppatore
+        \item Madiotto Gabriel - Sviluppatore
+    \end{itemize}
+    
+    \vfill
+    
+    % Footer con tabella versioni
+    \begin{table}[h]
+    \centering
+    \begin{tabular}{@{}lllc@{}}
+    \toprule
+    Versione & Data & Autore & Docenti \\
+    \midrule
+    1.0 & ? & DomotiX(?) & Tollot, Rossi \\
+    \bottomrule
+    \end{tabular}
+    \end{table}
+    
+    \thispagestyle{empty}
+\end{titlepage}
+
+% Indice con link
+\tableofcontents
+\newpage
+
+% Intestazione per il footer
+\fancyfoot[C]{\thepage}
+
+\section{Introduzione}
+\subsection{Descrizione Generale del Progetto}
+Breve descrizione del progetto software/prodotto che si sta sviluppando. !!!!
+
+\subsection{Informazioni Progetto}
+\begin{itemize}
+    \item \textbf{Data Inizio Progetto:} 11 Marzo 2025
+    \item \textbf{Data Fine Prevista:} 14 Maggio 2025
+    \item \textbf{Durata Stimata:} 65 giorni/ 9 settimane
+    \item \textbf{Partecipanti:}
+    \begin{itemize}
+        \item Cociug Raul
+        \item Madiotto Gabriel
+    \end{itemize}
+\end{itemize}
+
+\section{Situazione Attuale}
+\subsection{Stato Corrente}
+Descrizione dettagliata di ciò che è stato fatto finora nel progetto.
+
+\subsection{Materiale Esistente}
+Elencare eventuali risorse, mockup, prototipi già sviluppati.
+
+\section{Requisiti Hardware e Software}
+\subsection{Requisiti del Cliente}
+\begin{itemize}
+    \item \textbf{Postazione Computer:}
+    \begin{itemize}
+        \item Processore: 
+        \item RAM: 
+        \item Spazio Disco:
+    \end{itemize}
+    
+    \item \textbf{Connettività Internet:}
+    \begin{itemize}
+        \item Velocità Minima:
+        \item Tipo Connessione:
+    \end{itemize}
+\end{itemize}
+
+\section{Requisiti Funzionali}
+\subsection{Richieste Cliente HMI}
+Descrizione dettagliata delle richieste dell'interfaccia uomo-macchina.
+
+\subsection{Specifiche Funzionali}
+Elencare dettagliatamente cosa si vuole ottenere con il progetto.
+
+\subsection{Progettazione Interfaccia Grafica (GUI)}
+\begin{itemize}
+    \item Layout
+    \item Elementi Grafici
+    \item Esperienza Utente
+\end{itemize}
+
+\subsection{Progettazione Rete}
+\begin{itemize}
+    \item Architettura di Rete
+    \item Protocolli
+    \item Sicurezza
+\end{itemize}
+
+\end{document}
