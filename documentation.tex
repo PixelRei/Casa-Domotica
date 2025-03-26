@@ -6,6 +6,7 @@
 \usepackage{geometry}
 \usepackage{fancyhdr}
 \usepackage{booktabs}
+\usepackage{multicol}
 \usepackage[colorlinks=true,
             linkcolor=black,
             citecolor=black,
@@ -26,23 +27,25 @@
 
 % Pagina di Copertina
 \begin{titlepage}
+    \begin{minipage}[t]{0.4\textwidth}
+    \raggedright
+    {\large\itshape Team di Sviluppo:\par}
+    \vspace{0.2cm}
+    
+    Cociug Raul Andrei - Sviluppatore \\
+    Madiotto Gabriel - Sviluppatore
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.4\textwidth}
+    \raggedleft
+    {\Large Azienda: DomotiX\par}
+    \end{minipage}
+    
     \centering
-    \vspace*{2cm}
+    \vspace*{5cm}
     
     {\huge\bfseries Casa Domotica\par}
     \vspace{1.5cm}
-    
-    {\Large Azienda: DomotiX\par}
-    \vspace{2cm}
-    
-    {\large\itshape Team di Sviluppo:\par}
-    \vspace{0.5cm}
-    
-    % Elenco dei partecipanti
-    \begin{itemize}
-        \item Cociug Raul Andrei - Sviluppatore
-        \item Madiotto Gabriel - Sviluppatore
-    \end{itemize}
     
     \vfill
     
@@ -61,16 +64,19 @@
     \thispagestyle{empty}
 \end{titlepage}
 
-% Indice con link
+% Resto del documento rimane invariato
 \tableofcontents
 \newpage
 
-% Intestazione per il footer
 \fancyfoot[C]{\thepage}
 
+% Il resto del documento rimane esattamente come nel documento originale (sezioni precedenti)
 \section{Introduzione}
 \subsection{Descrizione Generale del Progetto}
-Breve descrizione del progetto software/prodotto che si sta sviluppando. !!!!
+L'obiettivo del progetto è quello di sviluppare un sistema che permetta il controllo e il monitoraggio di vari dispositivi domestici attraverso un'interfaccia utente interattiva.
+Il progetto si compone di due principali elementi:\begin{itemize}
+    \item \textbf{La rete della casa domotica}, realizzata mediante il software Cisco Packet Tracer, per simulare la comunicazione tra i vari dispositivi connessi.
+    \item \textbf{L'interfaccia utente}, sviluppata con HTML, CSS e JavaScript, per consentire l'interazione con i dispositivi attraverso un mockup funzionale.\end{itemize}
 
 \subsection{Informazioni Progetto}
 \begin{itemize}
@@ -84,12 +90,25 @@ Breve descrizione del progetto software/prodotto che si sta sviluppando. !!!!
     \end{itemize}
 \end{itemize}
 
+% Resto del documento come nell'originale (sezioni successive)
 \section{Situazione Attuale}
 \subsection{Stato Corrente}
-Descrizione dettagliata di ciò che è stato fatto finora nel progetto.
+È stato sviluppato il mockup con HTML, CSS, JavaScript per mostrare l'anteprima dell'interfaccia utente che dovrà essere utilizzata dagli utenti per poter interagire con la casa domotica e i dispositivi connessi ad essa.
+È stato realizzato un pannello di controllo, per la casa e tutte le stanze, con il quale è possibile svolgere numerose funzioni come:\begin{itemize}
+\item Accendere/spegnere le luci
+\item Utilizzo delle telecamere
+\item Controllo della temperatura all'esterno
+\item Controllo della velocità del vento
+\item Verifica dello stato delle porte (aperte/chiuse)
+\end{itemize}
+È stato realizzato anche il questionario da dover porre ai clienti per l'analisi dei requisiti e delle funzionalità da implementare per personalizzare il prodotto come richiesto dal cliente.
 
 \subsection{Materiale Esistente}
-Elencare eventuali risorse, mockup, prototipi già sviluppati.
+\begin{itemize}
+\item \textbf{Mockup/Interfaccia utente}
+\item \textbf{Questionario}
+\item \textbf{Documentazione del progetto}
+\end{itemize}
 
 \section{Requisiti Hardware e Software}
 \subsection{Requisiti del Cliente}
