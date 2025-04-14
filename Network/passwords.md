@@ -1,6 +1,0 @@
-###Modalità privilegiata
-cisco123
-##Password console
-console123
-##Accesso remoto
-telnet123
