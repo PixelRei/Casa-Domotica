@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-03-24" view-index="0" gantt-divider-location="416" resource-divider-location="300" version="3.3.3316" locale="it_IT">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="237" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="89" order="1"/>
+        <field id="tpd5" name="Data di fine" width="89" order="2"/>
+        <field id="tpd15" name="Note" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ffff33 #ff9933 #33ffff #66ff66 #ff3333 #000000 #f4f4f4 #ff0033]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="9" uid="ed8c321d35584e97a7d9544cba42bd63" name="Assegnazione progetto interfaccia grafica" meeting="false" start="2025-03-24" duration="1" complete="0" thirdDate="2025-03-24" thirdDate-constraint="1" expand="true"/>
+        <task id="0" uid="8002a9783d6645e8a83571c9acad391a" name="Ideazione dell'interfaccia grafica" color="#ff9933" meeting="false" start="2025-03-25" duration="2" complete="1" priority="2" expand="true"/>
+        <task id="1" uid="7f30d567918e48359af65a1ccc5b5cdd" name="Creazione wire frames" color="#33ffff" meeting="false" start="2025-03-26" duration="1" complete="1" priority="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="be81d1e68be04a56a3ce41b367665156" name="Ricerca di immagini e/o media da utilizzare" color="#ff9933" meeting="false" start="2025-03-27" duration="1" complete="2" priority="2" expand="true">
+            <notes><![CDATA[Ricerca dei media da utilizzare nelle pagine dell'interfaccia web come: la casa dall'alto, le immagini rappresentative dei parametri e immagini per i bottoni.
+Le immagini dovranno essere comprensibili e con una grandezza tale da essere visibili anche da dispositivi mobili.]]></notes>
+        </task>
+        <task id="2" uid="adc17a84c0f0491785ae75c1981f9669" name="Creazione home" color="#ff3333" meeting="false" start="2025-03-27" duration="2" complete="4" priority="4" expand="true">
+            <notes><![CDATA[Creazione della pagina Home dove sarà visualizzata l'intera casa e si potranno modificare e visualizzare tutti i parametri della casa. Questi parametri saranno: temperatura, velocità del vento, meteo, termosifine, condizionatore, roomba (aspirapolvere automatico), annaffiatoi, luci, porta della casa, tapparelle della casa e vattaggio che la casa sta utilizzando.
+Inoltre sarà implementato un pulsante di spegnimento completo dove le cose accese in quel momento saranno spente e eventualmente accese in un secondo momento.]]></notes>
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="a64b3fec5d9745299908eb8f333abc40" name="Creazione pagine delle stanze" color="#ff9933" meeting="false" start="2025-03-29" duration="1" complete="3" priority="2" expand="true">
+            <notes><![CDATA[Creazione di pagine per ogni stanza della casa, collegate dalla mappa utilizzata nell'immagine. Utilizzando la mappa si potrà entrare nelle stanze e visualizzarle singolarmente.]]></notes>
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="5b58222b8212443ca6931d92bd3957f2" name="Compatibilità per altri dispositivi" color="#ff9933" meeting="false" start="2025-03-30" duration="1" complete="0" priority="2" expand="true">
+            <notes><![CDATA[Rendere compatibili tutte le pagine per altri dispositivi come tablet, cellulari, etc.
+Provare la compatibilità e la fluidità nei diversi dispositivi.]]></notes>
+        </task>
+        <task id="5" uid="8e2e560fcb2a41b2815e13ee7766e123" name="Parte back end dell'interfaccia" color="#ff9933" meeting="false" start="2025-03-30" duration="1" complete="4" priority="2" expand="true">
+            <notes><![CDATA[Aggiunta dei bottoni, collegamenti fra le pagine e il funzionamento dell'interfaccia utente.]]></notes>
+        </task>
+        <task id="8" uid="0d58f80e93ae4b0d80f80fedc35c5ba5" name="Consegna interfaccia grafica" color="#000000" meeting="true" start="2025-03-31" duration="0" complete="0" priority="4" expand="true"/>
+        <task id="10" uid="28cc19949ffd4b03bbfc394f5bdc2600" name="Assegnazione progetto della rete" meeting="false" start="2025-04-07" duration="1" complete="0" thirdDate="2025-04-07" thirdDate-constraint="1" expand="true">
+            <notes><![CDATA[Assegnazione del progetto per la rete della casa domotica utilizzando Cisco Packet Tracer.]]></notes>
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" uid="cf09de9f204745a6a2c7fc2e0234574d" name="Ideazione della rete della casa" color="#ff9933" meeting="false" start="2025-04-08" duration="1" complete="0" priority="2" expand="true"/>
+        <task id="12" uid="4da54b16638644519611d33fc578c819" name="Ricerca dei componenti della rete" color="#ffff33" meeting="false" start="2025-04-08" duration="1" complete="2" priority="2" expand="true">
+            <notes><![CDATA[Ricercare i componenti da mettere all'interno della rete della casa domotica come luci, porte, router, switch, computer, etc.]]></notes>
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" uid="effa075e67f644a8977393f77e5ecbd2" name="Realizzazione della rete" color="#33ffff" meeting="false" start="2025-04-09" duration="1" complete="1" priority="0" expand="true">
+            <notes><![CDATA[Mettere a seconda della planeteria della casa i componenti nel loro posto.]]></notes>
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" uid="aec63a071f07490e929da47b4e492b18" name="Collegamento dei componenti della rete" color="#33ffff" meeting="false" start="2025-04-10" duration="1" complete="2" priority="0" expand="true">
+            <notes><![CDATA[Collegamento dei componenti messi nella rete, con collegamenti specifici ed efficenti.]]></notes>
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" uid="ddd374307d634102a5dc8626b8b9f2c8" name="Configurazione dei componenti" color="#ff9933" meeting="false" start="2025-04-11" duration="2" complete="0" priority="2" expand="true">
+            <notes><![CDATA[Configurazione dei componenti della rete come router, switch e computer. Messa a punto della rete e il suo funzionamento, con parte cablata e non cablata della casa.]]></notes>
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" uid="ea50c9c92bae40e5a2d937b366235788" name="Verificare il funzionamento" color="#ffff33" meeting="false" start="2025-04-13" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Verificare il corretto funzionamento della rete facendo delle prove andando a verificare il corretto collegamento con i dispositivi.]]></notes>
+        </task>
+        <task id="17" uid="86d4e1cfa9824a0383f75e72d843f5ce" name="Consegna rete della casa" meeting="true" start="2025-04-15" duration="0" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
